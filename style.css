@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif ;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    text-align: right;
+    font-size: 15px;
+   
+}
+.nav{
+   text-align: right;
+   justify-content: right;
+   margin-top: 20px;
+    
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* rev section */
+body {
+    background-image: url(./images/Rev.JPG);
+    background-size:cover;
+    background-position:top center;
+    width: 100%;
+    position: relative;
+    background-color: black;
+   
+}
+#rev::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+
+}
+#rev h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color:black;
+}
+#rev p{
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    padding-top: 10px;
+    position: relative;
+    color:black;
+}
+
+#rev .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid crimson;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color,color;
+}
+
+#rev .btn:hover{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
+
+
